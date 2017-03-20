@@ -2,73 +2,64 @@
 <html>
 <head>
   <title>Alfred Williams</title>
-  <style>
-    p {
-      background-color: gold;
-
-      float: right;
-      width: 1000px;
-      height: 400px;
-      border: 5px solid black;
-      vertical-align: inherit;
-      margin-top: 100px;
-      margin-bottom: 50px;
-      margin-right: 25%;
-
-    }
-    h1 {
-      color: red;
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      text-shadow: 3px 3px grey;
-      font-size: 50px;
-      font-variant: small-caps;
-      text-align: center;
-    }
-
-    img {
-      border: 1px solid black;
-      float: left;
-      vertical-align: super;
-      width: 250px;
-      height: 400px;
-      margin-top: 100px;
-      margin-bottom: 100px;
-      margin-left: 20%;
-    }
-    iframe{
-      vertical-align: inherit;
-    }
-    body {
-      color: navy;
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      font-size: 30px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One|Monoton" rel="stylesheet">
 </head>
-<body>
-    <h1>Alfred Williams</h1>
-    <h1>Video Game and Movie Reviews</h1>
-    <div class="container-logan">
-      <img src="images/logan.jpg" alt="logan">
-      <p>Logan is a proper sendoff for the Wolverine character in the X-Men/Marvel cinematic universe.  Hugh Jackman has invested 17 years
-        portraying Logan on the big screen.  The movie is an emotional rollercoaster some touching moments.  Premise:  Logan finds out he has
-        a daughter and fights to protect her while avoiding the antagonist.  Pros: The script is well-written and the character development
-        is good.  The characters are allowed more freedom in an R rated movie, thereby increasing the realism.  Cons: That's it for Hugh Jackman.<br>
-        Final verdict:  10/10
-        </p><br>
-      <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/RH3OxVFvTeg" frameborder="0" allowfullscreen></iframe>
-    </div>
 
-    <div class="container-legobatman">
-      <img src="images/legobatman.jpg" alt="batman">
-      <p>The Lego Batman movie is a "fun for the family" movie.  There are plenty of laughs throughout the movie.  In fact, the sound effects for
-        the movie had me almost in tears from laughter.  The script is good and the violence is minimal.  As a Batman fan, I found it a good alternative
-        from the traditional "dark" themed Batman movies.  Premise:  Batman takes on an orphan as a son.  The world is threatened, once again, by villanous characters.
-        Pros:  The acting, animation and script are spot on.  Cons: None.  <br>
-        Final verdict: 10/10 </p><br>
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/RRj4qsvCoVw" frameborder="0" allowfullscreen></iframe>
-    </div>
+<body link="gold" vlink="red">
+
+
+			<span>
+        <header>
+          <h1>Alfred Williams</h1>
+          <h1>Video Game and Movie Reviews</h1>
+        </header>
+      </span>
+    <center>
+      <ul>
+        <br>
+        <li><a href="index.html">Home</a></li>
+        <br>
+        <li><a class="active" href="#movies">New Movies</a></li>
+        <br>
+        <li><a href="dvd.html">New to DVD</a></li>
+        <br>
+        <li><a href="games.html">Video Games</a></li>
+        <br>
+        <li><a href="comingsoon.html">Coming Soon</a></li>
+      </ul>
+    </center>
+<span>
+
+
+
+
+        <article><img class="poster" src="images/logan.jpg" alt="logan"><center><h2>Logan</h2></center>Logan is a proper sendoff for the Wolverine character in the X-Men/Marvel cinematic universe.  Hugh Jackman has invested 17 years
+        portraying Logan on the big screen.  The movie is an emotional rollercoaster some touching moments.  <br><b>Premise</b>:  Logan finds out he has
+        a daughter and fights to protect her while avoiding the antagonist.<br> <b>Pros</b>: The script is well-written and the character development
+        is good.  The characters are allowed more freedom in an R rated movie, thereby increasing the realism.<br><b>Cons</b>: That's it for Hugh Jackman.<br><br>
+        <b class="final">Final verdict</b>:  5/5 </article>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RH3OxVFvTeg" frameborder="0"  allowfullscreen></iframe>
+        <img class="reelL" src="images/reel.gif" alt="reel">
+        <img class="reelR" src="images/reel.gif" alt="reel">
+
+        <hr color="red">
+
+
+      <article>
+      <img class="poster" src="images/legobatman.jpg" alt="batman"><center><h2>Lego Batman Movie</h2></center>The Lego Batman movie is a "fun for the family" movie.  There are plenty of laughs throughout the movie.  In fact, the sound effects for
+        the movie almost had me in tears from laughter.  The script is good and the violence is minimal.  As a Batman fan, I found it a good alternative
+        from the traditional "dark" themed Batman movies.  <br><b>Premise</b>:  Batman takes on an orphan as a son.  The world is threatened, once again, by villanous characters.
+        <br><b>Pros</b>:  The acting, animation and script are spot on.  <br><b>Cons</b>: None.  <br><br><b class="final">Final verdict</b>: 5/5
+      </article>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RRj4qsvCoVw" frameborder="0"  allowfullscreen></iframe>
+        <img class="reelL" src="images/reel.gif" alt="reel">
+        <img class="reelR" src="images/reel.gif" alt="reel">
+</span>
+
+
+
+
 </body>
 </html>

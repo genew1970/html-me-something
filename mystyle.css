@@ -1,0 +1,121 @@
+
+  header {
+    margin: 0;
+    padding: 0;
+    float: top;
+    background-image: url("images/filmstrip.png");
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    overflow: auto;
+    background-size: cover;
+
+    margin-bottom: 0;
+  }
+
+  div{
+    padding: 0;
+    margin: 0;
+  }
+
+  li a.active {
+    color: yellow;
+  	font-size: 22px;
+    background-color: blue;
+  }
+
+  ul{
+    background-image: url("images/film_side.png");
+    font-size: 20px;
+    margin-top: -15.7%;
+    padding: 0;
+    width: 150px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+  }
+
+  article {
+    border-radius: 15px;
+    font-family: "Sans-Serif", sans-serif;
+    background-color: navajowhite;
+    float: right;
+    width: 1000px;
+    height: 550px;
+    margin-top: 2%;
+    border: 5px solid black;
+    vertical-align: middle;
+
+    margin-bottom: 2%;
+    margin-right: 15%;
+  }
+
+  iframe{
+    margin-left: 2%;
+    padding-right: 2%;
+  }
+
+  h1 {
+    color: cyan;
+    font-family: 'Monoton', cursive;
+    text-shadow: 5px 5px 5px red;
+    font-size: 60px;
+    font-variant: small-caps;
+    text-align: center;
+  }
+
+  h2{
+    font-family: 'Russo One', sans-serif;
+    color: black;
+    text-shadow: 3px 3px gold;
+  }
+
+  img.poster {
+    float: left;
+    vertical-align: middle;
+    width: 250px;
+    height: 400px;
+    margin-top: 0%;
+    margin-left: -30%;
+  }
+
+  img.reelL {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+  }
+
+  img.reelR {
+    float: middle;
+    width: 250px;
+    height: 250px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    padding-left: 0;
+  }
+
+  img.snes{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-left: -42%;
+  }
+
+  b.final{
+    color: red;
+  }
+
+  body {
+    font-family: 'Baloo Bhaina', cursive;
+    background-color: orange;
+    background: linear-gradient(white, yellow);
+    color: navy;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 28px;
+    margin-top: 0;
+  }

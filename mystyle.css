@@ -4,35 +4,45 @@
     padding: 0;
     float: top;
     background-image: url("images/filmstrip.png");
-    height: 300px;
+    height: 310px;
     width: 100%;
     margin-top: 0;
     overflow: auto;
     background-size: cover;
-
     margin-bottom: 0;
-  }
-
-  div{
-    padding: 0;
-    margin: 0;
   }
 
   li a.active {
     color: yellow;
-  	font-size: 22px;
     background-color: blue;
   }
 
-  ul{
-    background-image: url("images/film_side.png");
+  li.link{
+    font-family: 'Russo One', sans-serif;
+    color: yellow;
+    font-size: 45px;
+  }
+
+  li {
+    font-family: 'Russo One', sans-serif;
     font-size: 20px;
-    margin-top: -15.7%;
+  }
+
+  ul {
+    background-image: url("images/film_side.png");
+    margin-top: -16.3%;
     padding: 0;
     width: 150px;
     height: 100%;
     overflow: auto;
     position: fixed;
+  }
+
+  a.bottom {
+    font-family: "Sans-Serif", sans-serif;
+    vertical-align: bottom;
+    color: black;
+    text-shadow: 3px 3px 5px navy;
   }
 
   article {
@@ -45,26 +55,37 @@
     margin-top: 2%;
     border: 5px solid black;
     vertical-align: middle;
-
     margin-bottom: 2%;
     margin-right: 15%;
   }
 
-  iframe{
+  article.first {
+    border-radius: 15px;
+    font-family: "Sans-Serif", sans-serif;
+    background-color: navajowhite;
+    width: 1000px;
+    height: 800px;
+    margin-top: 2%;
+    border: 5px solid black;
+    vertical-align: middle;
+    margin-bottom: 2%;
+  }
+
+  iframe {
     margin-left: 2%;
     padding-right: 2%;
   }
 
   h1 {
-    color: cyan;
+    color: crimson;
     font-family: 'Monoton', cursive;
-    text-shadow: 5px 5px 5px red;
+    text-shadow: 5px 5px 8px yellow;
     font-size: 60px;
     font-variant: small-caps;
     text-align: center;
   }
 
-  h2{
+  h2 {
     font-family: 'Russo One', sans-serif;
     color: black;
     text-shadow: 3px 3px gold;
@@ -97,7 +118,7 @@
     padding-left: 0;
   }
 
-  img.snes{
+  img.snes {
     float: left;
     width: 400px;
     height: 250px;
@@ -106,7 +127,7 @@
     margin-left: -42%;
   }
 
-  b.final{
+  b.final {
     color: red;
   }
 
